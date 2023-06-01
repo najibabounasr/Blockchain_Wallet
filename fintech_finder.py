@@ -97,7 +97,7 @@ candidate_database = {
 people = ["Lane", "Ash", "Jo", "Kendall"]
 
 
-def get_people(w3):
+def get_people():
     """Display the database of Fintech Finders candidate information."""
     db_list = list(candidate_database.values())
 
@@ -200,6 +200,8 @@ st.sidebar.markdown("## Total Wage in Ether")
 
     # * Write the `wage` variable to the Streamlit sidebar by
     # using `st.sidebar.write`.
+
+
 
 # 2. Now that the application can calculate a candidate’s wage, write the code
 # that will allow a customer (you, in this case) to send an Ethereum blockchain
